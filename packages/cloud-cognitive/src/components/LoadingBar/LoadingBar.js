@@ -76,6 +76,7 @@ export let LoadingBar = React.forwardRef(
     const loadingClassName = cx({
       [`${blockClass}__inner`]: true,
       [`${blockClass}__small`]: small,
+      [`${blockClass}__reg`]: !small,
       [`${blockClass}__linear-stop`]: !active && isDeterminate,
       [`${blockClass}__indefinite-stop`]: !active && !isDeterminate,
     });

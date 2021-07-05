@@ -119,7 +119,6 @@ $loading-bar__small-height: 4px;
   .#{$block-class} .#{$block-class}__inner {
     position: relative;
     width: 100%;
-    height: $loading-bar__height;
     padding: 0;
     border: none;
     background-color: $hover-ui;
@@ -157,6 +156,10 @@ $loading-bar__small-height: 4px;
     padding-top: $spacing-05;
     padding-bottom: $spacing-03;
     color: $text-01;
+  }
+
+  .#{$block-class}__reg {
+    height: $loading-bar__height;
   }
 
   .#{$block-class}__small {
